@@ -1,0 +1,134 @@
+﻿生成启动时间为 2016/5/25 21:43:54。
+     1>项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”在节点 2 上(Clean 个目标)。
+     1>正在使用工具版本“12.0”进行生成。
+       项目文件包含 ToolsVersion="4.0"。 此工具集未知或缺失(在此情况下，您可以通过安装合适的 MSBuild 版本来解决此问题)，或者生成可能已被强制到特定的 ToolsVersion (出于策略原因)。 将项目视为具有 ToolsVersion="12.0"。 有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=293424。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(入口点): 
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Release
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=x64
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('../../bin/win64/Release/' != '' and !HasTrailingSlash('../../bin/win64/Release/'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('x64/Release/' != '' and !HasTrailingSlash('x64/Release/'))。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets”中的目标“_PrepareForClean”(目标“Clean”依赖于它): 
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         正在删除文件“x64/Release/particles.tlog\particles.lastbuildstate”。
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“_PrepareForClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeClean”(目标“Clean”依赖于它): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“BeforeClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“UnmanagedUnregistration”；((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)'))的计算结果为((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\particles_vs2013.vcxproj.UnmanagedRegistration.cache'))。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“CoreClean”(目标“Clean”依赖于它): 
+       任务“Delete”
+         文件“x64/Release/\TempCA\particles.pdb”不存在。正在跳过。
+         文件“x64/Release/\TempCA\particles.exe”不存在。正在跳过。
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“FindUnderPath”任务。
+       任务“FindUnderPath”
+         比较路径为“../../bin/win64/Release/”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“FindUnderPath”
+         比较路径为“x64/Release/”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“RemoveDuplicates”任务。
+       任务“RemoveDuplicates”
+       已完成执行任务“RemoveDuplicates”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“CoreClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“CleanReferencedProjects”依赖于它): 
+       正在使用程序集“Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“CleanReferencedProjects”依赖于它): 
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanReferencedProjects”(目标“Clean”依赖于它): 
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('true' != 'true' and 'true' == 'true' and '' != '')。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“CleanReferencedProjects”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanPublishFolder”(目标“Clean”依赖于它): 
+       由于 false 条件，已跳过任务“RemoveDir”；('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)'))计算为('../../bin/win64/Release/app.publish\'=='../../bin/win64/Release/app.publish\' and Exists('../../bin/win64/Release/app.publish\'))。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“CleanPublishFolder”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterClean”(目标“Clean”依赖于它): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“AfterClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“EntityClean”；('@(EntityDeploy)' != '')的计算结果为('' != '')。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets”中的目标“BeforeCppClean”(目标“CppClean”依赖于它): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“BeforeCppClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets”中的目标“CoreCppClean”(目标“CppClean”依赖于它): 
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll”中的“CppClean”任务。
+       任务“CppClean”
+       已完成执行任务“CppClean”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“CoreCppClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets”中的目标“AfterCppClean”(目标“CppClean”依赖于它): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“AfterCppClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets”中的目标“PGInstrumentedClean”(目标“CppClean”依赖于它): 
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“PGInstrumentedClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\CUDA 6.5.targets”中的目标“InitializeCudaHostProperties”(目标“AddCudaCompileMetadata”依赖于它): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“InitializeCudaHostProperties”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\CUDA 6.5.targets”中的目标“AddCudaCompileMetadata”(目标“CudaClean”依赖于它): 
+       正在完全生成目标“AddCudaCompileMetadata”。
+       未指定输入文件。
+       正在使用程序集“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\Nvda.Build.CudaTasks.v6.5.dll”中的“SanitizePaths”任务。
+       任务“SanitizePaths”
+       已完成执行任务“SanitizePaths”的操作。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\Nvda.Build.CudaTasks.v6.5.dll”中的“SplitToItemMetadata”任务。
+       任务“SplitToItemMetadata”
+       已完成执行任务“SplitToItemMetadata”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“AddCudaCompileMetadata”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\CUDA 6.5.targets”中的目标“ValidateCudaBuild”(目标“CudaClean”依赖于它): 
+       由于 false 条件，已跳过任务“Error”；(!Exists($(CudaToolkitDir)))计算为(!Exists(C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\))。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“ValidateCudaBuild”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\BuildCustomizations\CUDA 6.5.targets”中的目标“CudaClean”(目标“CppClean”依赖于它): 
+       正在完全生成目标“CudaClean”。
+       未指定输入文件。
+       正在从程序集“Microsoft.Build.Tasks.v12.0”初始化任务工厂“XamlTaskFactory”。
+       正在使用来自任务工厂“XamlTaskFactory”的“CudaCompile”任务。
+       任务“CudaCompile”
+         cmd.exe /C "C:\Users\Sword\AppData\Local\Temp\tmp9fd8c4218efd46b798b7cf3a4e475452.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I./ -I../../common/inc -I./ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\/include" -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile  -Xcompiler "/wd 4819"     -DWIN32 -DWIN32 -D_MBCS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MT  " -o x64/Release/particleSystem_cuda.cu.obj "E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particleSystem_cuda.cu" -clean
+         
+         E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I./ -I../../common/inc -I./ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\/include" -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile  -Xcompiler "/wd 4819"     -DWIN32 -DWIN32 -D_MBCS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MT  " -o x64/Release/particleSystem_cuda.cu.obj "E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particleSystem_cuda.cu" -clean 
+         particleSystem_cuda.cu
+       已完成执行任务“CudaCompile”的操作。
+       任务“Delete”
+         正在删除文件“x64/Release/particleSystem_cuda.cu.deps”。
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“CudaClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets”中的目标“CppClean”(目标“Clean”依赖于它): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“CppClean”的操作。
+     1>来自项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”的文件“C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“Clean”(入口点): 
+     1>已完成在项目“particles_vs2013.vcxproj”中生成目标“Clean”的操作。
+     1>已完成生成项目“E:\Code\csmath\csmath\finial project\ParticlesSimulation\Unified Particle Physics CUDA\particles\particles_vs2013.vcxproj”(Clean 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.78
